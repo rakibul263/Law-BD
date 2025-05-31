@@ -15,7 +15,7 @@ const Lawyers = ({data}) => {
                 {
                     visibleData.map(lawyer => <Lawyer key={lawyer.id} lawyer={lawyer} ></Lawyer>)
                 }
-                <button onClick={() => setShowAll(!showAll)} className='btn btn-accent text-lg text-white rounded-2xl shadow-xl border-1 mx-auto mt-10 col-span-2 mb-10'>
+                <button onClick={() => setShowAll(!showAll)} className='btn btn-primary text-lg text-white rounded-2xl shadow-xl border-1 mx-auto mt-10 col-span-2 mb-10'>
                     {showAll ? "Show Less" : "Show All Lawyer"}
                 </button>
             </div>
