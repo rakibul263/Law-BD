@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../assets/logo.png';
+import { Link } from 'react-router';
 
 const Navbar = () => {
   const [active, setActive] = useState('Home');
@@ -7,18 +8,20 @@ const Navbar = () => {
   const navItems = ['Home', 'My-Bookings', 'Blogs', 'Contact Us'];
 
   const links = navItems.map((item) => (
-    <li key={item} className='font-semibold'>
-      <button
-        onClick={() => setActive(item)}
-        className={`btn btn-sm rounded-full transition-all duration-300 ${
-          active === item
-            ? 'btn-outline btn-primary text-lg'
-            : 'btn-ghost hover:bg-primary hover:text-white'
-        }`}
-      >
-        {item}
-      </button>
-    </li>
+    <Link to="/">
+        <li key={item} className='font-semibold'>
+        <button
+            onClick={() => setActive(item)}
+            className={`btn btn-sm rounded-full transition-all duration-300 ${
+            active === item
+                ? 'btn-outline btn-primary text-lg'
+                : 'btn-ghost hover:bg-primary hover:text-white'
+            }`}
+        >
+            {item}
+        </button>
+        </li>
+    </Link>
   ));
 
   return (
