@@ -4,14 +4,17 @@ const Lawyer = ({lawyer}) => {
     const {name, image, expert_category, license_no, available, experience} = lawyer;
     return (
         <div className="card card-side bg-white shadow-xl rounded-2xl hover:shadow-2xl transition duration-300 ease-in-out p-4 border border-gray-200">
-        <figure className='w-[200px] h-[200px] flex items-center justify-center overflow-hidden p-5 '>
-            <img className='w-auto h-auto max-w-full max-h-full shadow-xl rounded-2xl'
-            src={image}
-            alt="Lawyer Image" />
+        <figure className="w-[220px] h-[220px] bg-gray-100 flex items-center justify-center p-4 overflow-hidden rounded-xl shadow">
+            <img
+                className="w-full h-auto object-top"
+                src={image}
+                alt="Lawyer Image"
+            />
         </figure>
+
         <div className="card-body">
             <div className='flex items-center gap-4'>
-                <div className="badge badge-soft badge-success">{available ? "Available" : "Unavailable"}</div>
+                <div className={`badge badge-soft ${available ? "badge-success" : "badge-secondary"}`}>{available ? "Available" : "Unavailable"}</div>
                 <div className="badge badge-soft badge-info">{experience} Experience</div>
             </div>
             <h2 className="card-title text-2xl">{name}</h2>
