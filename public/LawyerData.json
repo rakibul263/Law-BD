@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Awlad Hossain",
+    "image": "https://i.pinimg.com/736x/a0/a3/14/a0a314bd1a6bbab1a223cd579bdbf7c8.jpg",
+    "expert_category": "Criminal Law",
+    "experience": "12 years",
+    "license_no": "BD-LAW-12345",
+    "available": true,
+    "consultation_fee": "$150",
+    "availability_day": ["Sunday", "Tuesday", "Thursday"]
+  },
+  {
+    "id": 2,
+    "name": "Farzana Rahman",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQHX14BHfjroZQ/profile-displayphoto-shrink_800_800/B56ZPOOjCTGwAc-/0/1734331742188?e=1753920000&v=beta&t=fPU9iPbLtbUfjEha9reZO2zFPUXo1aZDN4VDU5MbehA",
+    "expert_category": "Family Law",
+    "experience": "8 years",
+    "license_no": "BD-LAW-67890",
+    "available": false,
+    "consultation_fee": "$100",
+    "availability_day": ["Monday", "Wednesday"]
+  },
+  {
+    "id": 3,
+    "name": "Kazi Imran",
+    "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/299011519_5305350962912322_7892369888678718030_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGQBXPd6nnFfx83Zv97k78O5LwjI8-4B2HkvCMjz7gHYbF1FrgH1zRJ2NTMR-OXjNfeu5akggUTLnncrfERekWZ&_nc_ohc=XLSBonGxH34Q7kNvwGWyGQ5&_nc_oc=AdmkF4aqW0gsp7nr4jo9KBDsSsDRmp5bS5-DGFHUsThoeP0ayYTuLfRL2iP5x1RLf-0&_nc_zt=23&_nc_ht=scontent.fdac14-1.fna&_nc_gid=0lXiLLVDq62BqRJG8zgfKQ&oh=00_AfI3E0lN2jR2bEoLjWDTq2UkV5pOl2hoCmuuc-tPo8B21Q&oe=6840DC4D",
+    "expert_category": "Corporate Law",
+    "experience": "15 years",
+    "license_no": "BD-LAW-11223",
+    "available": true,
+    "consultation_fee": "$200",
+    "availability_day": ["Saturday", "Monday", "Wednesday"]
+  },
+  {
+    "id": 4,
+    "name": "Nadia Sultana",
+    "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/462436797_1358118942272666_1542227216212309317_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG_IkwRmdVCU2sCH2E2X-Chc54rc0T6kR9znitzRPqRH4knC4_ESaNwamzM8of_g2P3wVQpXIU-tBfwj4Z132F4&_nc_ohc=G1INGVvIuVEQ7kNvwE_h_-P&_nc_oc=Adm4Ll98QZpg9LEE5kw0AUX3sjCUmqt8wHHsPDHQsnWLLrPtGjaiUGkLdgODlFwaMZI&_nc_zt=23&_nc_ht=scontent.fdac14-1.fna&_nc_gid=8vKLCth7DROuBV6PFoUVNw&oh=00_AfKzwbSNuhwF3xRDiiUQChTrPXb9K--UdKVurebdaZf3Uw&oe=6840B4B2",
+    "expert_category": "Immigration Law",
+    "experience": "10 years",
+    "license_no": "BD-LAW-44556",
+    "available": true,
+    "consultation_fee": "$130",
+    "availability_day": ["Sunday", "Tuesday"]
+  },
+  {
+    "id": 5,
+    "name": "Tariq Anwar",
+    "image": "https://st2.depositphotos.com/1046535/7296/i/950/depositphotos_72966423-stock-photo-lawyer-with-civil-law-code.jpg",
+    "expert_category": "Civil Law",
+    "experience": "7 years",
+    "license_no": "BD-LAW-77889",
+    "available": false,
+    "consultation_fee": "$90",
+    "availability_day": ["Tuesday", "Thursday"]
+  },
+  {
+    "id": 6,
+    "name": "Shamima Akter",
+    "image": "https://www.stonegroup.com.au/wp-content/uploads/2021/03/SGL_264_web.jpg",
+    "": "Labor Law",
+    "experience": "6 years",
+    "license_no": "BD-LAW-99001",
+    "available": true,
+    "consultation_fee": "$110",
+    "availability_day": ["Monday", "Wednesday", "Friday"]
+  },
+  {
+    "id": 7,
+    "name": "Mahmudul Hasan",
+    "image": "https://media.istockphoto.com/id/472840408/photo/portrait-of-male-lawyer-in-court-holding-brief-and-book.jpg?s=2048x2048&w=is&k=20&c=saEYcCynZ1kmgIF7_7Gmb7clkISDGTJksk8Jy_gp5xA=",
+    "expert_category": "Tax Law",
+    "experience": "9 years",
+    "license_no": "BD-LAW-33221",
+    "available": true,
+    "consultation_fee": "$140",
+    "availability_day": ["Sunday", "Tuesday", "Thursday"]
+  },
+  {
+    "id": 8,
+    "name": "Rehana Jahan",
+    "image": "https://gracelegaloffices.com/wp-content/uploads/2022/11/ATTY_1_Square-2.jpg",
+    "expert_category": "Intellectual Property Law",
+    "experience": "11 years",
+    "license_no": "BD-LAW-55678",
+    "available": false,
+    "consultation_fee": "$160",
+    "availability_day": ["Saturday", "Monday"]
+  }
+]
