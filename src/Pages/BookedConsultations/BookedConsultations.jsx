@@ -31,10 +31,10 @@ const BookedConsultations = () => {
 
   return (
     <div className="p-10">
-      <h1 className="text-3xl font-bold mb-6">My Booked Consultations</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">My Booked Consultations</h1>
 
       {bookedLawyers.length === 0 ? (
-        <p className="text-gray-500">You haven't booked any consultations yet.</p>
+        <p className="text-gray-500 text-center">You haven't booked any consultations yet.</p>
       ) : (
         <>
           <div className="bg-white p-5 rounded-xl shadow-md mb-10">
