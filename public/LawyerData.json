@@ -8,7 +8,8 @@
     "license_no": "BD-LAW-12345",
     "available": true,
     "consultation_fee": "$150",
-    "availability_day": ["Sunday", "Tuesday", "Thursday"]
+    "availability_day": ["Sunday", "Tuesday", "Thursday"],
+    "about": "Criminal Law expert with 12 years of experience. Available Sunday, Tuesday, Thursday. Licensed (BD-LAW-12345). Reliable and skilled. Charges $150 per session."
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "license_no": "BD-LAW-67890",
     "available": false,
     "consultation_fee": "$100",
-    "availability_day": ["Monday", "Wednesday"]
+    "availability_day": ["Monday", "Wednesday"],
+    "about": "Experienced Family Law specialist with 8 years in practice. Not currently available. Available Monday and Wednesday. Charges $100. License: BD-LAW-67890."
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "license_no": "BD-LAW-11223",
     "available": true,
     "consultation_fee": "$200",
-    "availability_day": ["Saturday", "Monday", "Wednesday"]
+    "availability_day": ["Saturday", "Monday", "Wednesday"],
+    "about": "Corporate Law expert with 15 years’ experience. Available on Saturday, Monday, and Wednesday. Charges $200. Highly reputed. License: BD-LAW-11223."
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "license_no": "BD-LAW-44556",
     "available": true,
     "consultation_fee": "$130",
-    "availability_day": ["Sunday", "Tuesday"]
+    "availability_day": ["Sunday", "Tuesday"],
+    "about": "Immigration Law specialist with 10 years of experience. Available Sunday and Tuesday. Charges $130 per session. Registered under BD-LAW-44556."
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "license_no": "BD-LAW-77889",
     "available": false,
     "consultation_fee": "$90",
-    "availability_day": ["Tuesday", "Thursday"]
+    "availability_day": ["Tuesday", "Thursday"],
+    "about": "Civil Law practitioner with 7 years of experience. Available on Tuesday and Thursday. Currently unavailable. Charges $90. License: BD-LAW-77889."
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "license_no": "BD-LAW-99001",
     "available": true,
     "consultation_fee": "$110",
-    "availability_day": ["Monday", "Wednesday", "Friday"]
+    "availability_day": ["Monday", "Wednesday", "Friday"],
+    "about": "Labor Law expert with 6 years' experience. Available on Monday, Wednesday, and Friday. Charges $110. Friendly service. License: BD-LAW-99001."
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "license_no": "BD-LAW-33221",
     "available": true,
     "consultation_fee": "$140",
-    "availability_day": ["Sunday", "Tuesday", "Thursday"]
+    "availability_day": ["Sunday", "Tuesday", "Thursday"],
+    "about": "Tax Law specialist with 9 years’ experience. Available Sunday, Tuesday, and Thursday. Charges $140 per session. Registered under BD-LAW-33221."
   },
   {
     "id": 8,
@@ -85,6 +92,7 @@
     "license_no": "BD-LAW-55678",
     "available": false,
     "consultation_fee": "$160",
-    "availability_day": ["Saturday", "Monday"]
+    "availability_day": ["Saturday", "Monday"],
+    "about": "IP Law expert with 11 years of experience. Available Saturday and Monday. Currently unavailable. Charges $160. License: BD-LAW-55678."
   }
 ]

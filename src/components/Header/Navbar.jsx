@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../assets/logo.png';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [active, setActive] = useState('Home');
@@ -8,20 +8,33 @@ const Navbar = () => {
   const navItems = ['Home', 'My-Bookings', 'Blogs', 'Contact Us'];
 
   const links = navItems.map((item) => (
-    <Link to="/">
-        <li key={item} className='font-semibold'>
-        <button
-            onClick={() => setActive(item)}
-            className={`btn btn-sm rounded-full transition-all duration-300 ${
-            active === item
-                ? 'btn-outline btn-primary text-lg'
-                : 'btn-ghost hover:bg-primary hover:text-white'
-            }`}
-        >
-            {item}
-        </button>
-        </li>
-    </Link>
+    <li key={item} className='font-semibold'>
+      {item === 'Home' ? (
+        <Link to="/" className={`btn btn-sm rounded-full transition-all duration-300 ${
+          active === item
+            ? 'btn-outline btn-primary text-lg'
+            : 'btn-ghost hover:bg-primary hover:text-white'
+        }`} onClick={() => setActive(item)}>
+          {item}
+        </Link>
+      ) : item === 'My-Bookings' ? (
+        <Link to="/BookedConsultations" className={`btn btn-sm rounded-full transition-all duration-300 ${
+          active === item
+            ? 'btn-outline btn-primary text-lg'
+            : 'btn-ghost hover:bg-primary hover:text-white'
+        }`} onClick={() => setActive(item)}>
+          {item}
+        </Link>
+      ) : (
+        <Link to="/error" className={`btn btn-sm rounded-full transition-all duration-300 ${
+          active === item
+            ? 'btn-outline btn-primary text-lg'
+            : 'btn-ghost hover:bg-primary hover:text-white'
+        }`} onClick={() => setActive(item)}>
+          {item}
+        </Link>
+      )}
+    </li>
   ));
 
   return (
@@ -39,9 +52,9 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl gap-2">
+        <Link to="/" className="btn btn-ghost text-xl gap-2">
           <img src={logo} alt="logo" className="h-8" /> Law.BD
-        </a>
+        </Link>
       </div>
 
       <div className="navbar-center hidden lg:flex">
