@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "What should I do if I get arrested?",
+    "answer": "Stay calm, ask for a lawyer immediately, and do not answer questions without legal representation."
+  },
+  {
+    "id": 2,
+    "question": "How can I find a good criminal lawyer?",
+    "answer": "Look for licensed, experienced attorneys with positive client reviews and specialization in criminal law."
+  },
+  {
+    "id": 3,
+    "question": "What documents are needed for a divorce case?",
+    "answer": "Marriage certificate, proof of identity, property documents, and any evidence relevant to the case."
+  },
+  {
+    "id": 4,
+    "question": "How much does a consultation with a lawyer cost?",
+    "answer": "It varies depending on the lawyer and case type, but typical fees range from $50 to $300 per session."
+  },
+  {
+    "id": 5,
+    "question": "What is bail and how does it work?",
+    "answer": "Bail is a payment to release a person from custody, ensuring their appearance in court when required."
+  },
+  {
+    "id": 6,
+    "question": "Can I change my lawyer during an ongoing case?",
+    "answer": "Yes, you can change your lawyer at any time, but it's best to consult another lawyer before doing so."
+  },
+  {
+    "id": 7,
+    "question": "How do I file a legal notice?",
+    "answer": "You must hire a lawyer who will draft and send a legal notice on your behalf, based on your case."
+  },
+  {
+    "id": 8,
+    "question": "What is the difference between civil and criminal cases?",
+    "answer": "Civil cases involve disputes between individuals, while criminal cases involve offenses against the state."
+  },
+  {
+    "id": 9,
+    "question": "Do I need a lawyer for a property dispute?",
+    "answer": "Yes, it’s highly recommended to hire a lawyer who specializes in property or real estate law."
+  },
+  {
+    "id": 10,
+    "question": "Can a lawyer represent me in multiple cases?",
+    "answer": "Yes, if the lawyer agrees and there’s no conflict of interest, they can handle multiple cases for you."
+  },
+  {
+    "id": 11,
+    "question": "How long does a legal case usually take?",
+    "answer": "It depends on the complexity and type of case; some take weeks, others may last years."
+  },
+  {
+    "id": 12,
+    "question": "What is a power of attorney?",
+    "answer": "It's a legal document giving someone authority to act on your behalf in legal or financial matters."
+  },
+  {
+    "id": 13,
+    "question": "Is online legal consultation effective?",
+    "answer": "Yes, many issues can be addressed effectively online, especially initial consultations and documentation."
+  },
+  {
+    "id": 14,
+    "question": "What should I ask my lawyer during the first meeting?",
+    "answer": "Ask about their experience, fees, strategy, timeline, and what documents are required."
+  },
+  {
+    "id": 15,
+    "question": "Can I get a refund if I’m not satisfied with my lawyer?",
+    "answer": "That depends on your agreement with the lawyer. Some offer partial refunds, others may not."
+  }
+]

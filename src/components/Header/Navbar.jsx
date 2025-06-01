@@ -25,7 +25,15 @@ const Navbar = () => {
         }`} onClick={() => setActive(item)}>
           {item}
         </Link>
-      ) : (
+      ) : item === 'Blogs' ? (
+        <Link to="/Blogs" className={`btn btn-sm rounded-full transition-all duration-300 ${
+          active === item
+            ? 'btn-outline btn-primary text-lg'
+            : 'btn-ghost hover:bg-primary hover:text-white'
+        }`} onClick={() => setActive(item)}>
+          {item}
+        </Link>
+      ) :(
         <Link to="/error" className={`btn btn-sm rounded-full transition-all duration-300 ${
           active === item
             ? 'btn-outline btn-primary text-lg'

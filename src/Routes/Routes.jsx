@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import ProfileDetails from "../Pages/ProfileDetails/ProfileDetails";
 import BookedConsultations from "../Pages/BookedConsultations/BookedConsultations";
+import Blogs from "../Pages/Blogs/Blogs";
 
 export const router = createBrowserRouter([
     {
@@ -27,6 +28,11 @@ export const router = createBrowserRouter([
           path: "/BookedConsultations",
           loader: () => fetch("LawyerData.json"),
           element: <BookedConsultations />,
+        }, 
+        {
+          path: "/Blogs",
+          loader: () => fetch("Question.json"),
+          element: <Blogs />,
         }
       ]
     }
