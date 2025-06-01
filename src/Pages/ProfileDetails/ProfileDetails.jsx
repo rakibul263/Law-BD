@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
+import toast, { Toaster } from 'react-hot-toast';
 
 const ProfileDetails = () => {
   const { id } = useParams();
@@ -35,18 +36,21 @@ const ProfileDetails = () => {
       const updated = booked.filter((id) => id !== lawyerId);
       localStorage.setItem('bookedConsultations', JSON.stringify(updated));
       setIsBooked(false);
+      toast.success('Consultation cancelled successfully!');
     } else {
       // Book consultation
       booked.push(lawyerId);
       localStorage.setItem('bookedConsultations', JSON.stringify(booked));
       setIsBooked(true);
+      toast.success('Consultation booked successfully!');
     }
   };
 
   return (
     <div>
+      <Toaster position="top-center" />
       <div className="text-center my-10 mx-auto bg-gray-200 p-10 rounded-2xl shadow-lg">
-        <h1 className="text-4xl font-bold">Lawyer’s Profile Details</h1>
+        <h1 className="text-4xl font-bold">Lawyer's Profile Details</h1>
         <p className="text-gray-500 mt-5">
           Lorem ipsum dolor sit amet consectetur. Sit enim blandit orci tortor amet ut.
           Suscipit sed est fermentum magna. Quis vitae tempus facilisis turpis imperdiet
